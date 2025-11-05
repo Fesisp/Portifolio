@@ -1,0 +1,40 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node (for future static builds)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Prepare pages artifact
+        run: |
+          # ensure docs exists
+          ls -la docs || true
+        continue-on-error: true
+
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: docs
+
+  deploy:
+    needs: build_and_deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: https://$GITHUB_REPOSITORY_OWNER.github.io/${{ github.repository }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1

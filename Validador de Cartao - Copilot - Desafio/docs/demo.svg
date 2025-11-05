@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240">
+  <rect width="100%" height="100%" fill="#0b0b0b" rx="8"/>
+  <style>
+    .mono { font-family: monospace; font-size:14px; fill:#9fff9f }
+    .dim { fill: #6f9f6f }
+  </style>
+
+  <text x="20" y="40" class="mono">$ python identificador_bandeira_cartao.py 4111111111111111</text>
+  <text x="20" y="72" class="dim">4111111111111111 -&gt; </text>
+  <text x="190" y="72" class="mono" opacity="0">
+    Visa | Luhn: válido
+    <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="20" y="110" class="mono">$ python identificador_bandeira_cartao.py 5555555555554444</text>
+  <text x="20" y="142" class="dim">5555555555554444 -&gt; </text>
+  <text x="190" y="142" class="mono" opacity="0">
+    MasterCard | Luhn: válido
+    <animate attributeName="opacity" values="0;1;1;0" dur="3s" begin="1s" repeatCount="indefinite"/>
+  </text>
+</svg>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Demo - Validador de Bandeira de Cartão</title>
+    <style>
+      body { font-family: system-ui, Arial, sans-serif; max-width: 900px; margin: 48px auto; padding: 16px; }
+      pre { background:#111; color:#0f0; padding:12px; border-radius:6px; overflow:auto }
+      .hero { display:flex; gap:24px; align-items:center }
+    </style>
+  </head>
+  <body>
+    <h1>Demo — Validador de Bandeira de Cartão</h1>
+    <p>Este é um demo simples do script. Use a linha de comando ou veja o GIF animado abaixo.</p>
+
+    <div class="hero">
+      <div style="flex:1">
+        <h2>Exemplo de uso (CLI)</h2>
+        <pre>$ python identificador_bandeira_cartao.py 4111111111111111 5555555555554444
+4111111111111111 -> Visa | Luhn: válido
+5555555555554444 -> MasterCard | Luhn: válido</pre>
+      </div>
+      <div style="width:320px">
+        <img src="./demo.svg" alt="demo" style="width:100%; border:1px solid #ddd; border-radius:6px"/>
+      </div>
+    </div>
+
+    <h3>Sobre</h3>
+    <p>Projeto educacional para identificar bandeiras e validar Luhn. Código disponível no
+      <a href="https://github.com/Fesisp/Dio-Copilot-Desafio">repositório GitHub</a>.</p>
+  </body>
+</html>

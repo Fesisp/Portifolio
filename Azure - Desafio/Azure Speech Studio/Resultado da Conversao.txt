@@ -1,0 +1,34 @@
+Então vamos iniciar aqui a nosso laboratório falando um pouquinho sobre a exploração do estúdio de fala. Aqui a gente não está dentro do Agile, nós estamos diretamente no portal do estúdio de fala, então
+o endereço aqui vai ser speech.microsoft.com. Como que a gente vai fazer o login? O mesmo login que você utilizou lá para a criação do portal? Então aqui a autenticação é a mesma, até porque ele faz
+sincronização dos serviços, OK? Essa funcionalidade, na verdade. O que que ela faz, né? Na prática, você pega um arquivo de áudio, por exemplo, e ele vai transcrever o que está sendo dito neste arquivo,
+ ou você pode também inserir um arquivo de texto e ele vai gerar uma voz falando aquilo ali que está sendo escrito, OK, então ele tanto faz a transcrição. Do áudio pra escrita, como é escrita para o
+próprio áudio, isso é muito legal. Então como que a gente vai fazer isso na prática? Aí o nosso teste, né? Nosso laboratório, nosso teste em produção. Primeiro você vai abrir aqui o estúdio de fauna. 
+E a partir daí, meu, que ele já está aparecendo para mim, que eu não tenho nenhum trabalho criado e tudo mais. Como que a gente vai fazer e dar o nosso primeiro passo? A gente vai ver aqui na nossa
+chavezinha configurações, né? E caso você não tenha nenhum recurso, você vai clicar aqui, ó, em criar novo recurso, vai selecionar sua assinatura, vai dar um nome para esse recurso e colocar. 
+Aqui a região, caso ela não esteja padrão S0 e selecionar um grupo de recursos a partir do momento que você colocou todas as opções, OK, já estamos aptos a usar, mas daí você não se esqueça de selecionar 
+ela e aqui vai estar marcado esse botãozinho aqui que está em cinza para mim, mas ele vai estar em azul. Usar o recurso semelhante a gente fez ali na nos outros modelos. Depois você só vem aqui no X.
+ Fechou. Nós vamos vir aqui ó na conversão de fala em texto, OKE, vamos selecionar essa primeira aqui, ó conversão de fala em texto em tempo real. Aqui nosso primeiro passo, a mesma estratégia que a
+gente tinha visto no outro laboratório, né? Só que a gente não estava aqui na parte de de texto, mas a percebam que o layout é bem parecido. Minha documentação exibiu um exemplo de código. Aqui ele tem
+um modelo inicial II. Não se esqueçam, né, de colocar aqui, que reconheça o aplicativo e selecionar qual que é o idioma, o idioma, do quê, do arquivo que a gente vai importar. Eu tenho um áudio aqui em
+inglês, então vou clicar aqui em procurar arquivos. Aqui está o áudio. Ó, aqui ele já começou a linha, vai tocar a salinha, então ele já está traduzindo o que tem nesse arquivo aí, já está tocando aqui.
+ Ah, eu tinha selecionado um pouquinho antes, então aqui, ó, ele já trouxe tudo que está escrito lá, OK? Caso fosse, né, importar arquivo em outro idioma, aí eu teria que vir aqui, selecionar qual que é
+o idioma e depois selecionar o arquivo. Então aqui ele já trouxe para mim, ó, um texto. Do que está sendo dito neste áudio para se eu selecionar daqui a pouco uma música, ele IA tocar toda a música.
+ Trazer aqui muito mais informação a partir daí, beleza, gostei, funciona, quero utilizar então próximas etapas da introdução, como que a gente vai usar esse recurso de fala, como que funciona o ponto de
+extremidade? Eu quero olhar isso no próprio get hub, deixa eu só abrir aqui um novo separador só para não sair da dessa página, aquele já tem lá todo o caminho das pedras, como que eu vou querer esse
+repositório? Fitness os exemplos como que eu vou executar? Os tipos de linguagem suportados e aí vai bastante coisa. Tem bastante coisa pra ler, na verdade. Quais são os cenários comuns? Então aqui,
+quando que a gente vai utilizar isso ó, tente legendar com versão de fala em texto, então utilizar esse aplicativo, um exemplo, né? Pra fazer um conteúdo em tempo real. Ou até mesmo transcrever de um
+filme, né, vídeos, entre outros. A transcrição pode ser um calceder, né? Como fala idioma, então imagina só, você tem um call center de uma empresa que ela é bucha nacional, então eu vou precisar
+trabalhar isso em vários idiomas, porque eu posso ter pessoas que não são fluentes, né? Então aqui nos ajuda bastante, serviços relacionados, né? Fala personalizada, Galeria de voz percebam que. Aqui a
+gente pode importar diversos. Textos. E automatizar isso numa secretária eletrônica, porque eu estou pegando um texto e trabalhando isso para um áudio, né? Então, ou senão uma pessoa lhe gravar a voz
+dela falando várias coisas e aquilo ali vai resultar no chat ou coisa do tipo aquilo que se fizer mais sentido. Não vamos esquecer de avaliar o preço Porto bastante importante, né? Quando que vai custar
+e tudo mais aqui a gente pode já abrir. Ele já traz aqui a parte do do learn, né? Aonde fala o preço, qual que é a região, né? Quanto que isso vai nos custar? E aqui tem é também a um modelo de
+categorias, né? Padrão personalizado. Curtas horas tem grátis, alguns serviços ofertam isso, né? Quanto que ele vai executar? Percebam que isso aqui ele está sendo cobrado por hora, né? E daí a gente tem
+tanto AA tradução de fala, reconhecimento de locutor, então pra cada serviço aqui ele vai ter um precinho único e não se esquecendo o uso responsável da IA. Então isso que é interessante, né? Pensar
+assim, qual que é a. Funcionalidade que eu preciso qual que é o problema que eu preciso resolver? Então? Essa conversão de fala em tempo real. Nos ajuda muito quando eu tenho, né? Essa questão de
+tradução eu preciso identificar, veja só, você está numa reunião do Tim, talvez você já tenha passado por isso e você ativa a transcrição automática, ou seja, para facilitar, até mesmo, né? Tem o Macau
+com uma pessoa que é de outro país, daqui a pouco não me sinto tão confortável assim. As pessoas falam muito rápido, nem todo mundo tem empatia, né, com pessoas de outras regiões, e o pessoal fala super,
+super rápido e você fica assim, meu Deus, o que que estão falando? Daqui que eu não estou entendendo nada, vezes nada, né? O senhor me ajuda? Então isso nos ajuda muito, porque ele está fazendo aquela
+transcrição em tempo real. Então a ferramenta nada mais do que usa um serviço como esse. Identificar a funcionalidade, como você pode ofertar isso no dia a dia e obviamente, ter uma ideia de como isso é
+implementado é muito importante, principalmente se você tiver a ideia de trabalhar daqui a pouco uma área de prévenda ou pós venda, um acompanhamento, né? O cliente, um customer. Né? Alguém da área de
+negócio, ele que vai sair trabalhando com o cliente, focado em ferramentas de inteligência artificial. Esse é um cenário que obviamente faz todo o sentido. Então vamos aí para o nosso próximo serviço do
+leigo e estúdio. 

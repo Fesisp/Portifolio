@@ -1,0 +1,11 @@
+# Arquivo de dependências do projeto (nome: requisitos)
+# Observação: o script principal usa apenas a biblioteca padrão do Python.
+# Estes pacotes são recomendados para desenvolvimento e testes.
+pytest>=7.0
+flake8>=6.0
+mypy>=1.10
+pytest-cov>=4.0
+codecov>=2.1
+
+# Caso queira instalar em um virtualenv (Windows PowerShell):
+# & '.\.venv\Scripts\python.exe' -m pip install -r requisitos
